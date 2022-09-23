@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="css/cariMobil.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <title>Binar car rental</title>
+</head>
+
+<body>
+    <div class="row sticky-top contain_navbar">
+        <nav class="navbar navbar-expand-lg col">
+            <a class="navbar-brand" href="#"><img src="images/Rectangle_74.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ms-auto navbar_list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Our_Services">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Why_Us">Why Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#FAQ">FAQ</a>
+                    </li>
+                    <li class="nav-item register">
+                        <button type="button" class="btn btn_register">Register</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <header class="header_cari_mobil">
+        <div class="container">
+            <!-- title -->
+            <div class="row title-prodak">
+                <div class="col-lg-6">
+                    <h1>Sewa & Rental Mobil Terbaik di Kawasan Bandar Lampung.</h1>
+                    <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
+                        terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk
+                        sewa mobil selama 24 jam.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <img class="title-image" src="images/img_car.png" alt="car-mockup" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- cari mobil  -->
+        <div class="form_cari_mobil">
+            <div class="container row">
+                <div class="col-lg-3">
+                    <label for="pilih-driver" class="col-lg-4 col-form-label">Tipe Driver</label>
+                    <select class="form-select" id="pilih-driver">
+                        <option selected>Pilih Tipe Driver</option>
+                        <option value="dengan_driver">Dengan Sopir</option>
+                        <option value="tanpa_driver">Tanpa Sopir</option>
+                    </select>
+                </div>
+                <div class="col-lg-3">
+                    <label for="tanggal" class="col-lg-4 col-form-label">Tanggal</label>
+                    <input type="date" class="form-control" placeholder="Pilih Tanggal" id="tanggal">
+                </div>
+                <div class="col-lg-2">
+                    <label for="waktu" class="col-lg-4 col-form-label">waktu</label>
+                    <input type="time" id="waktu" class="form-control">
+                </div>
+                <div class="col-lg-2">
+                    <label for="" class="col-lg-12 col-form-label">Jumlah Penumpang</label>
+                    <div class="input">
+
+                    </div>
+                    <input type="text" id="jumlahPenumpang" class="form-control ">
+                </div>
+                <div class="col-lg-2">
+                    <button type="button" class="btn btn-primary btn_cari_mobil" id="load-btn">Cari Mobil</button>
+                    <button type="button" class="btn btn-primary btn_clear_mobil" id="clear-btn">clear</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <section>
+            <div class="container">
+                <div id="cars-container"></div>
+            </div>
+        </section>
+        <footer class="footer_cari_mobil">
+            <div class="container container_content">
+                <div class="row">
+                    <!-- addres -->
+                    <div class="col-lg-3 ">
+                        <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+                        <p>binarcarrental@gmail.com</p>
+                        <p>081-233-334-808</p>
+                    </div>
+                    <!-- navigation -->
+                    <div class="col-lg-3 nav_footer">
+                        <a href="#Our_Services">Our Services</a>
+                        <a href="#Why_Us">Why Us</a>
+                        <a href="#Testimonial">Testimonial</a>
+                        <a href="#FAQ">FAQ</a>
+                    </div>
+                    <!-- social media -->
+                    <div class="col-lg-3">
+                        <div class="sosmed">
+                            <p>Connect with us</p>
+                            <a href=""><img src="images/icon_facebook.png" alt=""></a>
+                            <a href=""><img src="images/icon_instagram.png" alt=""></a>
+                            <a href=""><img src="images/icon_twitter.png" alt=""></a>
+                            <a href=""><img src="images/icon_mail.png" alt=""></a>
+                            <a href=""><img src="images/icon_twitch.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <p>Copyright Binar 2022</p>
+                        <img src="images/Rectangle_74.png">
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- script js -->
+        <script type="text/javascript" src="./scripts/binar.js"></script>
+        <script type="text/javascript" src="./scripts/app.example.js"></script>
+        <script type="text/javascript" src="./scripts/car.example.js"></script>
+        <script type="text/javascript" src="./scripts/main.example.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+
+</html>

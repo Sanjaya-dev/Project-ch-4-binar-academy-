@@ -1,0 +1,285 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    padding-top: 0px;
+    background-color: #F1F3FF;
+}
+/* navbar */
+.contain_navbar{
+    margin-right: 0px !important;
+    background-color:#F1F3FF;
+}
+nav{
+    margin: 0 50px 0 80px;
+}
+.navbar_list{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 150px;
+}
+.container_content{
+    margin-top: 80px;
+}
+
+.register{
+    background-color: #5CB85F;
+  
+}
+.btn_register{
+    color: #FFFFFF !important;
+}
+.title-prodak h1{
+    width: 482px;
+    height: 100px;
+    margin: 80px 0 0 0;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+}
+.title-prodak p{
+    font-family: 'Helvetica';
+    font-style: normal;
+    width: 468px;
+    height: 90px;
+    margin: 10px 0 0 0;
+}
+.title-prodak a{
+    text-decoration: none;
+    color: #FFFFFF !important;
+}
+.title-image{
+    width: 590px;
+    height: 407px;
+}
+
+.button-order{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    width: 170px;
+    height: 52px;
+    margin: 20px 0 0 0;
+    background-color: #5CB85F !important;
+    border-radius: 2px;
+    color: #FFFFFF !important;
+    
+}
+/* layanan */
+.layanan{
+    margin-top: 100px;
+}
+.info_layanan h3{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.info_layanan p{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+.list_layanan{
+    list-style-type: none ;
+    padding: 0;
+}
+.icom_circle-check{
+    margin-right: 20px;
+}
+.fa-solid{
+ color: #CFD4ED;
+}
+
+
+/* why us */
+.why_us{
+    margin-top: 7%;
+}
+.why_us h3{
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+.why_us p{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+.why_us h4{
+    font-family: 'Helvetica';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.icon_why_us{
+    width: 32px;
+    margin: 24px 0 0 24px;
+}
+
+/* Testimoni */
+.testimoni{
+    margin-top: 7%;
+}
+.testimoni h3{
+    font-family: 'Helvetica';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+}
+.testimoni .text_testimoni{
+    font-family: 'Helvetica';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    
+}
+.testimonials{
+    text-align:left;
+}
+.img_testimoni{
+    margin-top: 50px;
+}
+.button_testimoni{
+    text-align: center;
+}
+.button_testimoni a{
+    padding: 10px;
+}
+.crd_title_2{
+    font-family: 'Helvetica';
+    font-style: normal;
+}
+.crd_title_2 h5{
+    padding-top: 64px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.crd_title_2 p{
+    padding-top: 16px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    width: 468px;
+    margin-left: auto;
+    margin-right: auto !important;
+    color: #FFFFFF;
+}
+.btn_order{
+    margin-bottom: 64px;
+    background-color: #5CB85F !important;
+}
+
+/* footer */
+footer{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+.nav_footer a{
+    display:flex;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+.sosmed{
+    width: 268px;
+    height: 68px;
+}
+.sosmed p{
+    margin-bottom: 6px;
+}
+.sosmed a{
+    padding-left: 8px;
+}
+/* end footer */
+
+/* cari mobil */
+    /*form cari mobil*/
+    .form_cari_mobil{
+        background: #FFFFFF;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        width: 1047px;
+        height: 106px;
+        margin-left: 120px;
+        /* position: absolute; */
+        bottom: 130px;
+    }
+    .footer_cari_mobil{
+        margin-top: 140px;
+        padding-bottom: 70px;
+    }
+    .btn_cari_mobil{
+        margin-top: 10px;
+    }
+    .btn_clear_mobil{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 6px 30px 6px 30px !important;
+     
+    }
+/* mobile 360px */
+@media(max-width : 600px) {
+    .contain_navbar nav{
+        margin-left: 30px;
+    }
+    .title-prodak h1{
+        width: 248px;
+        height: 200px;
+        margin-top: 0;
+    }
+    .title-prodak p{
+        font-family: Helvetica, sans-serif;
+        font-style: normal;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        width: 328px;
+        height: 60px;
+        align-self: stretch;
+    }
+    .title-prodak .button-order{
+        margin: 30px 0 20px 0 ;
+    }
+    .container .title-image {
+        width: 344px;
+        height: 199px;
+    }
+    /* layanan */
+    .layanan .img-service{
+        width: 252px;
+        margin: 10px 0 0 30px;
+        padding-bottom: 20px;
+    }
+}
